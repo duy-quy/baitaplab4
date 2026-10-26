@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trang web bán hàng</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.cdnfonts.com/css/minecraft-3" rel="stylesheet">
+</head>
+<body>
+  <!-- Video nền live wallpaper -->
+  <video autoplay loop muted playsinline id="bg-video">
+    <source src="background/sakura-forest-minecraft.1920x1080.mp4" type="video/mp4">
+  </video>
+
+  <!-- Header -->
+  <header>
+    <section class="container">
+      
+      <!-- SEARCH -->
+      <div class="header-top">
+        
+        <!-- Bên trái: Thanh Search -->
+        <form class="search-form">
+          <input type="text" placeholder="Search...">
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+
+        <!-- Logo -->
+        <div class="logo">
+          <a href="#">
+            <img src="imgs/logo.png" alt="CORAL Logo">
+          </a>
+        </div>
+
+        <!-- Bên phải: Account & Giỏ hàng -->
+        <div class="header-actions">
+          <a href="#" class="action-item">
+            <i class="fa-solid fa-user"></i> Account
+          </a>
+          <a href="#" class="action-item">
+            <i class="fa-solid fa-bag-shopping"></i> Shopping
+          </a>
+        </div>
+
+      </div>
+
+      <!--  MENU NGANG -->
+      <nav class="menu-main">
+        <ul>
+          <li><a href="#">Jewelry & Accessories</a></li>
+          <li><a href="#">Clothing & Shoes</a></li>
+          <li><a href="#">Home & Living</a></li>
+          <li><a href="#">Wedding & Party</a></li>
+          <li><a href="#">Toy & Entertainment</a></li>
+          <li><a href="#">Art & Collectibles</a></li>
+          <li><a href="#">Craft Supplies & Tools</a></li>
+
+        </ul>
+      </nav>
+
+    </section>
+    <section class="hero-collection">
+  <div class="container hero-container">
+    
+    <!-- CỘT BÊN TRÁI: TEXT & BUTTON -->
+    <div class="hero-content">
+      <h1 class="hero-title">Collections</h1>
+      <p class="hero-desc">
+        You Can Explore Ans Shop Many Differnt Collection<br>
+        From Various Barands Here.
+      </p>
+      <a href="#" class="btn-shop">
+        <i class="fa-solid fa-bag-shopping"></i> Shop Now
+      </a>
+    </div>
+
+    <!-- CỘT BÊN PHẢI: BỨC ẢNH VỚI KHUNG VIỀN -->
+    <div class="hero-image-wrapper">
+      <div class="image-frame">
+        <img src="imgs/19.png" alt="Collection Banner">
+      </div>
+    </div>
+
+  </div>
+</section>
+  </header>
+  <!-- Phần Thân-->
+   <main>
+     <!-- Brand Logos -->
+    <section class="container">
+      <div class="content">
+        <div class="flex-box">
+            <img src="imgs/brand/01.png" alt="Brand 1">
+            <img src="imgs/brand/02.png" alt="Brand 2">
+            <img src="imgs/brand/03.png" alt="Brand 3">
+            <img src="imgs/brand/04.png" alt="Brand 4">
+            <img src="imgs/brand/05.png" alt="Brand 5">
+        </div>
+    </section>
+    <section class="popular-styles container">
+      <div class="vertical-title">
+        <span> EXPLORE NEW AND POPULAR STYLES</span>
+
+      </div>
+      <div class="styles-grid">
+        <!-- ảnh lớn bên trái -->
+        <div class="grid-item item-large">
+          <img src="imgs/18.png" alt="Style 1">
+        </div>
+        <!-- các ảnh nhỏ bên phải -->
+         <div class="grid-item"><img src="imgs/15.png" alt="Style 2"></div>
+         <div class="grid-item"><img src="imgs/16.png" alt="Style 3"></div>
+         <div class="grid-item"><img src="imgs/19.png" alt="Style 4"></div>
+         <div class="grid-item"><img src="imgs/20.png" alt="Style 5"></div>
+      </div>
+    </section>
+     <!-- Product -->
+      <section class="products-section container">
+        <h2 class="section-title">Or Subscribe to Our Newsletter</h2>
+      <!-- list sản phẩm-->
+       <div class="filter-bar">
+        <div class="filter-categories">
+        <a href="#" class="active">All Products</a>
+        <a href="#">T-Shirt</a>
+        <a href="#">Hoodies</a>
+        <a href="#">Jacket</a>
+      </div>    
+      <button class="btn-filter"><i class="fa-solid fa-filter"></i> Filter</button>
+        </div>
+        <!-- Danh sách sản phẩm -->
+         <div class="product-grid">
+          <!-- Product Card 1 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="imgs/02.png" alt="Product 1">
+            </div>
+            <div class="product-info">
+              <h3>Product Name 1</h3>
+              <div class="product-bottom">
+                <span class="category">Dress</span>
+                <span class="price">$29.99</span>
+              </div>
+            </div>
+          </div>
+                    <!-- Product Card 2 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="imgs/11.png" alt="Product 1">
+            </div>
+            <div class="product-info">
+              <h3>Product Name 1</h3>
+              <div class="product-bottom">
+                <span class="category">Dress</span>
+                <span class="price">$29.99</span>
+              </div>
+            </div>
+          </div>
+                    <!-- Product Card 3 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="imgs/14.png" alt="Product 1">
+            </div>
+            <div class="product-info">
+              <h3>Product Name 1</h3>
+              <div class="product-bottom">
+                <span class="category">Dress</span>
+                <span class="price">$29.99</span>
+              </div>
+            </div>
+          </div>
+                    <!-- Product Card 4 -->
+          <div class="product-card">
+            <div class="product-image">
+              <span class="badge badge-sale">SALE</span>
+              <img src="imgs/05.png" alt="Product 1">
+            </div>
+            <div class="product-info">
+              <h3>Product Name 1</h3>
+              <div class="product-bottom">
+                <span class="category">Dress</span>
+                <span class="price"><del>$236.00</del> $198.00</span>
+              </div>
+            </div>
+          </div>
+                    <!-- Product Card 5 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="imgs/06.png" alt="Product 1">
+            </div>
+            <div class="product-info">
+              <h3>Product Name 1</h3>
+              <div class="product-bottom">
+                <span class="category">Dress</span>
+                <span class="price">$29.99</span>
+              </div>
+            </div>
+          </div>
+                    <!-- Product Card 6 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="imgs/07.png" alt="Product 1">
+            </div>
+            <div class="product-info">
+              <h3>Product Name 1</h3>
+              <div class="product-bottom">
+                <span class="category">Dress</span>
+                <span class="price">$29.99</span>
+              </div>
+            </div>
+          </div>
+                    <!-- Product Card 7 -->
+          <div class="product-card">
+            <div class="product-image">
+              <span class="badge badge-hot">HOT</span>
+              <img src="imgs/08.png" alt="Product 1">
+            </div>
+            <div class="product-info">
+              <h3>Product Name 1</h3>
+              <div class="product-bottom">
+                <span class="category">Dress</span>
+                <span class="price">$29.99</span>
+              </div>
+            </div>
+          </div>
+                    <!-- Product Card 8 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="imgs/09.png" alt="Product 1">
+            </div>
+            <div class="product-info">
+              <h3>Product Name 1</h3>
+              <div class="product-bottom">
+                <span class="category">Dress</span>
+                <span class="price">$29.99</span>
+              </div>
+            </div>
+          </div>
+         </div>
+      </section>
+      <!-- Zara banner-->
+       <section class="zara-banner">
+        <div class="zara-bg-logo"> ZARA</div>
+        <div class="container zara-container">
+          <div class="zara-image">
+            <img src="imgs/zaraimg.png" alt="Zara Collection">
+          </div>
+          <div class="zara-content">
+            <div class="zara-brand-logo">ZARA</div>
+            <p>Lustrous yet understated. The new &amp; Evening Wear Collection exclusively offered at the reopened Giorgio Armani boutique in Los Angeles.</p>
+            <a href="#" class="btn-zara">See Collection</a>
+          </div>
+          </div>
+      </section>
+
+      <!-- Best sellers -->
+       <section class="best-sellers container">
+        <h2 class="section-title">Best Sellers</h2>
+        <div class="filter-bar">
+          <div class="filter-categories">
+            <a href="#" class="active">All Products</a>
+            <a href="#">T-Shirt</a>
+            <a href="#">Hoodies</a>
+            <a href="#">Jacket</a>
+          </div>
+          <button class="btn-filter"><i class="fa-solid fa-filter"></i> Filter</button>
+        </div>
+        <!-- Danh sách sản phẩm bét seller-->
+        <div class="product-grid best-sellers-grid">
+          <!-- Sản phẩm 1 -->
+          <div class="product-card">
+            <div class="product-image">
+              <span class="badge badge-sale">SALE</span><img src="imgs/05.png" alt="Product 1"></div>
+              <div class="product-info"><h3>Basic Dress Green</h3><div class="product-bottom"><span>Dress</span><span class="price">$236.00</span></div></div>
+        </div>
+
+          <!-- Sản phẩm 2 -->
+          <div class="product-card">
+            <div class="product-image"><img src="imgs/05.png" alt="Product 1"></div>
+              <div class="product-info"><h3>Nike Sportswear Futura</h3><div class="product-bottom"><span>Bag</span><span class="price">$130.00</span></div></div>
+        </div>
+
+                  <!-- Sản phẩm 3 -->
+          <div class="product-card">
+            <div class="product-image">
+              <span class="badge badge-hot">HOT</span><img src="imgs/05.png" alt="Product 1"></div>
+              <div class="product-info"><h3>Yellow Sport Hoodie</h3><div class="product-bottom"><span>Dress</span><span class="price"><del>$236.00</del>$236.00</span></div></div>
+        </div>
+
+                  <!-- Sản phẩm 4 -->
+          <div class="product-card">
+            <div class="product-image">
+              <span class="badge badge-sale">SALE</span><img src="imgs/05.png" alt="Product 1"></div>
+              <div class="product-info"><h3>Nike Air Zoom Pegasus</h3><div class="product-bottom"><span>Shoe</span><span class="price"><del>$220.00</del>$198.00</span></div></div>
+        </div>
+          </div>
+          </section>
+          <!-- Instagram và newsletter -->
+           <section class="instagram-newsletter">
+            <div class="container">
+              <div class="insta-grid">
+                <img src="imgs/09.png" alt="Instagram 1">
+                <img src="imgs/15.png" alt="Instagram 2">
+                <img src="imgs/16.png" alt="Instagram 3">
+                <img src="imgs/17.png" alt="Instagram 4">
+                <img src="imgs/06.png" alt="Instagram 5">
+                <img src="imgs/07.png" alt="Instagram 6">
+              </div>
+              
+              <div class="newsletter-box">
+                <h2 class="section-title"> Or subscribe to our newsletter</h2>
+                <form class="newsletter-form">
+                  <input type="email" placeholder="Enter your email" required>
+                  <button type="submit">Submit</button>
+                </form>
+            </div>
+            </div>
+           </section>
+   </main>
+
+       
+<footer class="footer">
+  <div class="container footer-main">
+    <!-- Col 1 -->
+    <div class="footer-col footer-about">
+      <div class="logo"><a href="#">❖❖ CORAL ❖❖</a></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <!-- Col 2 -->
+    <div class="footer-col">
+      <h3>CATALOG</h3>
+      <ul>
+        <li><a href="#">Necklaces</a></li>
+        <li><a href="#">Hoodies</a></li>
+        <li><a href="#">Jewelry Box</a></li>
+        <li><a href="#">T-Shirt</a></li>
+        <li><a href="#">Jacket</a></li>
+      </ul>
+    </div>
+
+    <!-- Col 3 -->
+    <div class="footer-col">
+      <h3>ABOUT US</h3>
+      <ul>
+        <li><a href="#">Our Producers</a></li>
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+      </ul>
+    </div>
+
+    <!-- Col 4 -->
+    <div class="footer-col">
+      <h3>CUSTOMER SERVICES</h3>
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Track Your Order</a></li>
+        <li><a href="#">Product Care &amp; Repair</a></li>
+        <li><a href="#">Book an Appointment</a></li>
+        <li><a href="#">Shipping &amp; Returns</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <div class="container bottom-container">
+      <p>© 2026 CORAL Inc. All Rights Reserved.</p>
+      <div class="payment-icons">
+        <img src="imgs/icons_payment.png" alt="Payment Methods">
+      </div>
+      <a href="#" class="back-to-top">Scroll to top ↑</a>
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>
